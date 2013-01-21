@@ -1,10 +1,10 @@
-<h1>{{fullName}}</h1>
+Full name: {{fullName}}     {{#linkTo 'users.edit' content class='btn btn-primary'}}Edit{{/linkTo}}
 
 <div>
-  <q>{{quote}}</q>
+  Quote: <q>{{quote}}</q>
 </div>
 
 <div class='page-header'></div>
 
-{{#linkTo 'users.index' class='btn'}}Back{{/linkTo}}
-{{#linkTo 'users.edit' content class='btn btn-primary'}}Edit{{/linkTo}}
+{{#linkTo 'users.index' class='btn'}}Back to Users list{{/linkTo}}
+

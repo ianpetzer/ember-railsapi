@@ -18,3 +18,4 @@ binstubs/*
 bin/*
 public/uploads
 public/assets/*
+.idea
